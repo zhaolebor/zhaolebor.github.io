@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Zodiac - 13</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" type="text/css" />
+		
+		<script type="text/javascript">
+		
+			$(document).ready(function() {
+				
+				$(".hideme").click(function() {
+					$(this).hide(2000);
+					$("#showme").show("fast");
+				});
+				
+				$("#showhide").click(function() {
+					//$("#items").toggle("slow");
+					//$("#items").slideUp("slow");
+					$("#items").slideToggle("slow");
+				});
+				
+				
+				
+			
+				
+				
+			$(".fadesquare").hover(function() {
+				$("#square1").fadeTo("fast",1);
+				},
+				function() {
+				$("#square1").fadeTo("fast",0);
+				});
+			$(".fadesquare").click(function() {
+				$("#pos").animate({height:550, marginLeft:-95, marginTop: -100},"slow");
+				
+					
+
+				});
+				
+		    $(".fadesquare2").hover(function() {
+				$("#square2").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square2").fadeTo("fast",1);
+				});
+			$(".fadesquare2").click(function() {
+					$("#square2").animate({height:460, marginLeft:-365, marginTop: -40},"slow");
+					$("#square2").animate({width: 330},"fast");
+					$("#story").show("slow");
+
+				});
+						
+			$(".fadesquare3").hover(function() {
+				$("#square3").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square3").fadeTo("fast",1);
+				});
+			$(".fadesquare3").click(function() {
+					$("#square3").animate({height:740, marginLeft:415, marginTop: -115},"slow");
+					$("#square3").animate({width: 350},"fast");
+					$("#cast").show("slow");
+
+				});
+				
+			$(".fadesquare4").hover(function() {
+				$("#square4").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square4").fadeTo("fast",1);
+				});
+			$(".fadesquare4").click(function() {
+					$("#square4").animate({width: 390},"fast");
+					$("#square4").animate({height:80, marginLeft:-230, marginTop: -115},"slow");
+					$("h3").css("margin-left", "25px");
+					$("h3").css("margin-top", "15px");
+					$("h3").css("text-align", "left");
+					$("h3").css("font-size", "24px");
+					$("#rating").show("slow");
+					
+
+				});
+				
+			$(".fadesquare5").hover(function() {
+				$("#square5").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square5").fadeTo("fast",1);
+				});
+			$(".fadesquare5").click(function() {
+					$("#square5").animate({height:200, marginLeft:-365, marginTop: 185},"slow");
+					$("#square5").animate({width: 330},"fast");
+					$("h5").css("margin-top", "-20px");
+					$("#bo").show("slow");
+					$("em8").show("slow");
+					$("em7").hide("slow");
+
+				});
+				
+			$(".fadesquare6").hover(function() {
+				$("#square6").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square6").fadeTo("fast",1);
+				});
+			$(".fadesquare6").click(function() {
+				$("#square6").animate({height:770, marginLeft:-220, marginTop: 400},"slow");
+				$("#square6").animate({width: 730},"fast");
+				$("h6").css("font-size", "36px");
+				$("#special").show("slow");
+					
+
+				});
+				
+			$(".fadesquare7").hover(function() {
+				$("#square7").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square7").fadeTo("fast",1);
+				});
+			$(".fadesquare7").click(function() {
+				$("#square7").animate({marginLeft:-800},"fast");
+				$("#comments").show("slow");
+				$("#square7").hide("fast");
+					
+
+				});
+				
+			$(".fadesquare8").hover(function() {
+				$("#square8").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square8").fadeTo("fast",1);
+				});
+			$(".fadesquare8").click(function() {
+				$("#square8").animate({height:770, marginLeft:-615, marginTop: 150},"slow");
+				$("#square8").animate({width: 605},"fast");
+				$("h4").css("font-size", "36px");
+				$("#awards").show("slow");
+					
+
+				});
+				
+			$(".fadesquare9").hover(function() {
+				$("#square9").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square9").fadeTo("fast",1);
+				});
+			
+			$("#pos").click(function() {
+				$("#pos").animate({height:300, marginLeft:0, marginTop: 0},"slow");
+				
+				
+				
+				});
+			
+			
+			$("#story").click(function() {
+				$("#square2").animate({width: 120},"fast");
+				$("#square2").animate({height:120, marginLeft:0, marginTop: 0},"slow");
+				$("#story").hide("slow");
+				
+				
+				});
+			$("#cast").click(function() {
+				$("#square3").animate({width: 100},"fast");
+				$("#square3").animate({height:100, marginLeft:0, marginTop: 0},"slow");
+				$("#cast").hide("slow");
+				
+				});
+			$("#rating").click(function() {
+				$("#square4").animate({height:120, marginLeft:0, marginTop: 0},"slow");
+				$("#square4").animate({width: 120},"fast");
+				$("h3").css("margin-left", "0px");
+				$("h3").css("margin-top", "35px");
+				$("h3").css("text-align", "center");
+				$("h3").css("font-size", "36px");
+				$("#rating").hide("slow");
+				});
+			$("#awards").click(function() {
+				$("#square8").animate({width: 100},"fast");
+				$("#square8").animate({height:100, marginLeft:0, marginTop: 0},"slow");
+				$("h4").css("font-size", "24px");
+				$("#awards").hide("slow");
+				});	
+			$("#bo").click(function() {
+				$("#square5").animate({width: 100},"fast");
+				$("#square5").animate({height:100, marginLeft:0, marginTop: 0},"slow");
+				$("h5").css("margin-top", "10px");
+				$("#bo").hide("slow");
+				$("em8").hide("slow");
+				$("em7").show("slow");
+				});
+			$("#special").click(function() {
+				$("#square6").animate({width: 100},"fast");
+				$("#square6").animate({height:100, marginLeft:0, marginTop: 0},"slow");
+				$("#special").hide("slow");
+				$("h6").css("font-size", "24px");
+				});
+			$("#comments").click(function() {
+				$("#comments").hide("slow");
+				$("#square7").animate({marginLeft:0},"fast");
+				$("#square7").show("slow");
+				});
+			});
+			
+		</script>
+		<style>
+			body {
+				
+				background: black;
+			}
+			
+
+			#square1{
+				width: 300px;
+				height: 300px;
+				background: #fff;
+				position: absolute;
+				top: 300px;
+				left: 550px;
+				opacity: 0;
+				z-index: 3;
+				
+			}
+			#square2{
+				width: 120px;
+				height: 120px;
+				background: #fff;
+				position: absolute;
+				top: 150px;
+				left: 400px;
+				
+				
+			}
+			#square3{
+				width: 100px;
+				height: 100px;
+				background: #fff;
+				position: absolute;
+				top: 150px;
+				left: 650px;
+			}
+			#square4{
+				width: 120px;
+				height: 120px;
+				background: #fff;
+				position: absolute;
+				top: 150px;
+				left: 880px;
+			}
+			#square5{
+				width: 100px;
+				height: 100px;
+				background: #fff;
+				position: absolute;
+				top: 400px;
+				left: 400px;
+			}
+			#square6{
+				width: 100px;
+				height: 100px;
+				background: #fff;
+				position: absolute;
+				top: 400px;
+				left: 900px;
+			}
+			#square7{
+				width: 120px;
+				height: 120px;
+				background: #fff;
+				position: absolute;
+				top: 630px;
+				left: 400px;
+			}
+			#square8{
+				width: 100px;
+				height: 100px;
+				background: #fff;
+				position: absolute;
+				top: 650px;
+				left: 650px;
+			}
+			#square9{
+				width: 120px;
+				height: 120px;
+				background: #fff;
+				position: absolute;
+				top: 630px;
+				left: 880px;
+			}
+			
+			
+			
+			
+			em {
+				font-size: 30px;
+			}
+			
+			em1{
+				font-style: normal;
+				font-weight: bold; /* light, regular, bold */
+				font-size: 45px;
+				color: white;
+				
+			}
+			em2{
+				font-style: normal;
+				font-size: 24px;
+				
+				
+			}
+			em4 {
+				font-style: normal;
+				font-size: 18px;
+				line-height: 20px;
+			}
+			
+			em5 {
+				font-style: bold;
+				font-size: 30px;
+			
+			}
+			em6 {
+				font-style: none;
+				font-family: Futura;
+				font-size: 24px;
+			}
+			em7 {
+				font-style: none;
+			}
+			em8 {
+				font-style: none;
+				display: none;
+			}
+			
+			p {
+				font-family: Futura; 
+				color: black;
+				text-align: center;
+				font-size: 36px;
+			}
+			
+			
+			p2 {
+				font-family: Verdana; 
+				color: black;
+				font-size: 18px;
+				line-height: 24px;
+			}
+			p4 {
+				font-family: Verdana; 
+				color: black;
+				font-size: 18px;
+				line-height: 30px;
+			}
+			p5 {
+				font-family: Verdana; 
+				color: white;
+				font-size: 20px;
+				line-height: 30px;
+			}
+			p6 {
+				font-family: Verdana; 
+				color: black;
+				font-size: 20px;
+				line-height: 30px;
+			}
+			
+			h1 {
+				font-family: Futura; 
+				color: black;
+				text-align: center;
+				font-size: 36px;
+				margin-top: 30px;
+			
+			}
+			h2 {
+				font-family: Futura; 
+				color: black;
+				text-align: center;
+				font-size: 36px;
+			
+			}
+			h3 {
+				font-family: Futura; 
+				color: black;
+				font-style: normal;
+				text-align: center;
+				font-size: 36px;
+				margin-left: 0px;
+				margin-top: 35px;
+				text-align: center;
+			}
+			h4 {
+				font-family: Futura; 
+				color: black;
+				text-align: center;
+				font-size: 24px;
+				margin-top: 10px;
+			
+			}
+			h5 {
+				font-family: Futura; 
+				color: black;
+				text-align: center;
+				font-size: 32px;
+				margin-top: 10px;
+			
+			}
+			h6 {
+				font-family: Futura; 
+				color: black;
+				text-align: center;
+				font-size: 24px;
+				margin-top: 10px;
+			}
+			h7 {
+				font-family: Futura; 
+				color: black;
+				text-align: center;
+				font-size: 36px;
+			}
+			
+			a {
+				font-weight: bold;
+				text-decoration: none;
+				border-bottom: 3px solid;
+				padding-bottom: 0px;
+				color: #0f0;
+				font-family: Futura; 
+				color: black;
+				text-align: center;
+				font-size: 36px;
+				margin-top: 10px;
+				margin-left: 50px;
+	
+			}
+			
+			a:link{
+
+			}
+
+			a:visited{
+				color:#050;
+			}
+
+			a:hover{
+				font-style: italic;
+				background: yellow;
+				border-bottom: none;
+
+			}
+
+			a:active{
+				color: red;
+
+			}
+			
+			
+			
+			
+			#title {
+				position: absolute;
+				top: 35px;
+				left: 50px;
+			}
+			#poster {
+				position: absolute;
+				top: 300px;
+				left: 600px;
+				z-index: 2;
+			}
+			#story {
+				display: none;
+				position: absolute;
+				top: 180px;
+				left: 50px;
+				width: 280px;
+				height: 600px;
+				padding: 10px;
+				font-size: 18px;
+				z-index: 5;
+			}
+			#rating {
+				display: none;
+				position: absolute;
+				top: 30px;
+				left: 760px;
+				width: 350px;
+				height: 80px;
+				padding: 10px;
+				font-size: 18px;
+				z-index: 5;
+			}
+			#cast {
+				display: none;
+				position: absolute;
+				top: 115px;
+				left: 1065px;
+				z-index: 5;
+			
+			}
+			#awards {
+				display: none;
+				position: absolute;
+				top: 900px;
+				left: 37px;
+				z-index: 5;
+			
+			}
+			#bo {
+				display: none;
+				position: absolute;
+				top: 650px;
+				left: 50px;
+				z-index: 5;
+			
+			}
+			#special {
+				display: none;
+				position: absolute;
+				top: 900px;
+				left: 680px;
+				z-index: 5;
+				width: 710px;
+				padding: 10px;
+			}
+			#comments {
+				background: black;
+				position: absolute;
+				top: 140px;
+				left: 390px;
+				width: 640px;
+				height: 130px;
+				padding: 10px;
+				z-index:1;
+				display: none;
+				
+				
+			}
+				
+			
+		</style>
+	</head>
+	<body>
+		<div id="title">
+		<h7><em1>Zodiac (2003)</em1></h7>
+		</div>
+		
+		<div id="story">
+			<p2>A serial killer in the San Francisco Bay Area taunts police with his letters and cryptic messages. We follow the investigators and reporters in this lightly fictionalized account of the true 1970's case as they search for the murderer, becoming obsessed with the case. Based on Robert Graysmith's book, the movie's focus is the lives and careers of the detectives and newspaper people.
+			</p2>
+		</div>
+		
+		<div id="rating">
+			<p4>IMDb: <em5>7.7</em5>/10<br>Rotten Tomatoes: <em5>74%</em5><p4>
+		</div>
+		
+		<div id="cast">
+			<img  src="z/cast.jpg" width="350" height="auto" alt="Mulholland Drive"/></br>	
+			<a href="http://www.imdb.com/title/tt0443706/fullcredits?ref_=tt_ov_st_sm" target="_blank">Full cast&crew</a>
+		</div>
+		
+		<div id="awards">
+			<img  src="z/awards.jpg" width="600" height="auto" alt="Mulholland Drive"/></br>	
+		</div>
+		
+		<div id="bo">
+			<p4><b>Domestic</b>: $33,080,084</br><b>Worldwide</b>: $84,785,914</br><b>Release Date</b>: March 2, 2007</br><b>Budget</b>: $65,000,000<p4>
+		</div>
+		
+		
+		<div id="comments">
+			<p5><em>"Zodiac</em> is a quiet, dialogue-driven thriller that delivers with scene after scene of gut-wrenching anxiety. David Fincher also spends more time illustrating nuances of his characters and recreating the mood of the 70s than he does on gory details of murder."</p5>
+		</div>
+		
+		<div id="special">
+			<p6><em6>Why are multiple actors credited as playing "Zodiac"?</em6></br>
+			The different actors were employed to match the varied physical descriptions of the Zodiac Killer by eyewitnesses and surviving victims. For example, the suspect seen at the scene of Paul Lee Stine's murder was described as quite heavy, and is here played by Bob Stephenson, while the man indicated to be Zodiac (although never positively correlated with the Zodiac killings by the police) and who threatened Kathleen Johns was described as rather slighter and smaller and is here played by John Lacy. For that reason, the Zodiac's first confirmed murder at Lake Herman Road (referenced several times in the movie as having occurred just prior to Christmas 1968) was not shown because there were no survivors or eyewitnesses that could give a description of the murder scene. Interestingly, John Carroll Lynch, who plays Arthur Leigh Allen, the man who's ultimately accused of the Zodiac killings by Robert Graysmith (a theory seemingly supported by the film), was not used in recreating any of the crimes of the Zodiac Killer.
+			</p6>
+		</div>
+		
+		
+		
+		<div id="poster">
+			<img id="pos" src="z/poster.jpg" width="auto" height="300" alt="Mulholland Drive"/>
+		</div>
+		
+		
+		
+		
+		<div id=square1 class="fadesquare"><p><em4>Directed by: David Fincher</br>Written by: James Vanderbilt</br>Genre: Crime,Drama,Mystery</br>Runtime: 157 min</br>Country: USA<em4></p></div>
+		<div id=square2 class="fadesquare2"><h1>Story</h1></div>
+		<div id=square3 class="fadesquare3"><h1>Cast</h1></div>
+		<div id=square4 class="fadesquare4" style="text-align:center"><h3>Rating</h3></div>
+		<div id=square5 class="fadesquare5"><p><h5>B<em8>ox </em8><em7>.</em7>O<em8>ffice</em8><em7>.</em7><h5></p></div>
+		<div id=square6 class="fadesquare6"><p><h6>Special</h6></p></div>
+		<div id=square7 class="fadesquare7"><p><em2>Comments</em2></p></div>
+		<div id=square8 class="fadesquare8"><p><h4>Awards</h4></p></div>
+		<a href="http://bert.art.yale.edu/~designsummer2013/zhao/Project6/home.html"><div id=square9 class="fadesquare9"><p>More</p></div></a>
+		
+	</body>
+</html>

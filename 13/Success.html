@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" type="text/css" />
+		
+		<script type="text/javascript">
+		
+			$(document).ready(function() {
+				
+				$(".hideme").click(function() {
+					$(this).hide(2000);
+					$("#showme").show("fast");
+				});
+				
+				$("#showhide").click(function() {
+					//$("#items").toggle("slow");
+					//$("#items").slideUp("slow");
+					$("#items").slideToggle("slow");
+				});
+				
+				
+				
+			
+				
+				
+			$(".fadesquare").hover(function() {
+				$("#square1").fadeTo("fast",1);
+				},
+				function() {
+				$("#square1").fadeTo("fast",0);
+				});
+			$(".fadesquare").click(function() {
+				$("#pos").animate({height:550, marginLeft:-95, marginTop: -100},"slow");
+				
+					
+
+				});
+				
+		    $(".fadesquare2").hover(function() {
+				$("#square2").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square2").fadeTo("fast",1);
+				});
+			$(".fadesquare2").click(function() {
+					$("#square2").animate({height:460, marginLeft:-365, marginTop: -40},"slow");
+					$("#square2").animate({width: 440},"fast");
+					$("#story").show("slow");
+
+				});
+						
+			$(".fadesquare3").hover(function() {
+				$("#square3").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square3").fadeTo("fast",1);
+				});
+			$(".fadesquare3").click(function() {
+					$("#square3").animate({height:740, marginLeft:415, marginTop: -115},"slow");
+					$("#square3").animate({width: 350},"fast");
+					$("#cast").show("slow");
+
+				});
+				
+			$(".fadesquare4").hover(function() {
+				$("#square4").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square4").fadeTo("fast",1);
+				});
+			$(".fadesquare4").click(function() {
+					$("#square4").animate({width: 390},"fast");
+					$("#square4").animate({height:80, marginLeft:-230, marginTop: -115},"slow");
+					$("h3").css("margin-left", "25px");
+					$("h3").css("margin-top", "15px");
+					$("h3").css("text-align", "left");
+					$("h3").css("font-size", "24px");
+					$("#rating").show("slow");
+					
+
+				});
+				
+			$(".fadesquare5").hover(function() {
+				$("#square5").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square5").fadeTo("fast",1);
+				});
+			$(".fadesquare5").click(function() {
+					$("#square5").animate({height:200, marginLeft:-365, marginTop: 185},"slow");
+					$("#square5").animate({width: 330},"fast");
+					$("h5").css("margin-top", "-20px");
+					$("#bo").show("slow");
+					$("em8").show("slow");
+					$("em7").hide("slow");
+
+				});
+				
+			$(".fadesquare6").hover(function() {
+				$("#square6").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square6").fadeTo("fast",1);
+				});
+			$(".fadesquare6").click(function() {
+				$("#square6").animate({height:770, marginLeft:-220, marginTop: 400},"slow");
+				$("#square6").animate({width: 730},"fast");
+				$("h6").css("font-size", "36px");
+				$("#special").show("slow");
+					
+
+				});
+				
+			$(".fadesquare7").hover(function() {
+				$("#square7").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square7").fadeTo("fast",1);
+				});
+			$(".fadesquare7").click(function() {
+				$("#square7").animate({marginLeft:-800},"fast");
+				$("#comments").show("slow");
+				$("#square7").hide("fast");
+					
+
+				});
+				
+			$(".fadesquare8").hover(function() {
+				$("#square8").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square8").fadeTo("fast",1);
+				});
+			$(".fadesquare8").click(function() {
+				$("#square8").animate({height:770, marginLeft:-615, marginTop: 150},"slow");
+				$("#square8").animate({width: 605},"fast");
+				$("h4").css("font-size", "36px");
+				$("#awards").show("slow");
+					
+
+				});
+				
+			$(".fadesquare9").hover(function() {
+				$("#square9").fadeTo("fast",0.5);
+				},
+				function() {
+				$("#square9").fadeTo("fast",1);
+				});
+			
+			$("#pos").click(function() {
+				$("#pos").animate({height:300, marginLeft:0, marginTop: 0},"slow");
+				
+				
+				
+				});
+			
+			
+			$("#story").click(function() {
+				$("#square2").animate({width: 120},"fast");
+				$("#square2").animate({height:120, marginLeft:0, marginTop: 0},"slow");
+				$("#story").hide("slow");
+				
+				
+				});
+			$("#cast").click(function() {
+				$("#square3").animate({width: 100},"fast");
+				$("#square3").animate({height:100, marginLeft:0, marginTop: 0},"slow");
+				$("#cast").hide("slow");
+				
+				});
+			$("#rating").click(function() {
+				$("#square4").animate({height:120, marginLeft:0, marginTop: 0},"slow");
+				$("#square4").animate({width: 120},"fast");
+				$("h3").css("margin-left", "0px");
+				$("h3").css("margin-top", "35px");
+				$("h3").css("text-align", "center");
+				$("h3").css("font-size", "36px");
+				$("#rating").hide("slow");
+				});
+			$("#awards").click(function() {
+				$("#square8").animate({width: 100},"fast");
+				$("#square8").animate({height:100, marginLeft:0, marginTop: 0},"slow");
+				$("h4").css("font-size", "24px");
+				$("#awards").hide("slow");
+				});	
+			$("#bo").click(function() {
+				$("#square5").animate({width: 100},"fast");
+				$("#square5").animate({height:100, marginLeft:0, marginTop: 0},"slow");
+				$("h5").css("margin-top", "10px");
+				$("#bo").hide("slow");
+				$("em8").hide("slow");
+				$("em7").show("slow");
+				});
+			$("#special").click(function() {
+				$("#square6").animate({width: 100},"fast");
+				$("#square6").animate({height:100, marginLeft:0, marginTop: 0},"slow");
+				$("#special").hide("slow");
+				$("h6").css("font-size", "24px");
+				});
+			$("#comments").click(function() {
+				$("#comments").hide("slow");
+				$("#square7").animate({marginLeft:0},"fast");
+				$("#square7").show("slow");
+				});
+			});
+			
+		</script>
+		<style>
+			body {
+				
+				background: black;
+			}
+			p {
+				font-family: Futura; 
+				color: black;
+				text-align: center;
+				font-size: 36px;
+			}
+
+			#square1{
+				width: 300px;
+				height: 300px;
+				background: #fff;
+				position: absolute;
+				top: 300px;
+				left: 550px;
+				opacity: 0;
+				z-index: 3;
+				
+			}
+			#square2{
+				width: 120px;
+				height: 120px;
+				background: #fff;
+				position: absolute;
+				top: 150px;
+				left: 400px;
+				
+				
+			}
+			#square3{
+				width: 100px;
+				height: 100px;
+				background: #fff;
+				position: absolute;
+				top: 150px;
+				left: 650px;
+			}
+			#square4{
+				width: 120px;
+				height: 120px;
+				background: #fff;
+				position: absolute;
+				top: 150px;
+				left: 880px;
+			}
+			#square5{
+				width: 100px;
+				height: 100px;
+				background: #fff;
+				position: absolute;
+				top: 400px;
+				left: 400px;
+			}
+			#square6{
+				width: 100px;
+				height: 100px;
+				background: #fff;
+				position: absolute;
+				top: 400px;
+				left: 900px;
+			}
+			#square7{
+				width: 120px;
+				height: 120px;
+				background: #fff;
+				position: absolute;
+				top: 630px;
+				left: 400px;
+			}
+			#square8{
+				width: 100px;
+				height: 100px;
+				background: #fff;
+				position: absolute;
+				top: 650px;
+				left: 650px;
+			}
+			#square9{
+				width: 120px;
+				height: 120px;
+				background: #fff;
+				position: absolute;
+				top: 300px;
+				left: 300px;
+			}
+			
+			
+			
+			
+			em {
+				font-size: 30px;
+			}
+			
+			em1{
+				font-style: normal;
+				font-weight: bold; /* light, regular, bold */
+				font-size: 45px;
+				color: white;
+				
+			}
+			em2{
+				font-style: normal;
+				font-size: 24px;
+				
+				
+			}
+			em4 {
+				font-style: normal;
+				font-size: 20px;
+				line-height: 20px;
+			}
+			
+			em5 {
+				font-style: bold;
+				font-size: 30px;
+			
+			}
+			em6 {
+				font-style: none;
+				font-family: Futura;
+				font-size: 20px;
+			}
+			em7 {
+				font-style: none;
+			}
+			em8 {
+				font-style: none;
+				display: none;
+			}
+			
+			
+			p2 {
+				font-family: Verdana; 
+				color: black;
+				font-size: 18px;
+				line-height: 30px;
+			}
+			p4 {
+				font-family: Verdana; 
+				color: black;
+				font-size: 18px;
+				line-height: 30px;
+			}
+			p5 {
+				font-family: Verdana; 
+				color: white;
+				font-size: 20px;
+				line-height: 30px;
+			}
+			p6 {
+				font-family: Verdana; 
+				color: black;
+				font-size: 18px;
+				line-height: 30px;
+			}
+			
+			h1 {
+				font-family: Futura; 
+				color: black;
+				text-align: center;
+				font-size: 36px;
+				margin-top: 30px;
+			
+			}
+			h2 {
+				font-family: Futura; 
+				color: black;
+				text-align: center;
+				font-size: 36px;
+			
+			}
+			h3 {
+				font-family: Futura; 
+				color: black;
+				font-style: normal;
+				text-align: center;
+				font-size: 36px;
+				margin-left: 0px;
+				margin-top: 35px;
+				text-align: center;
+			}
+			h4 {
+				font-family: Futura; 
+				color: black;
+				text-align: center;
+				font-size: 24px;
+				margin-top: 10px;
+			
+			}
+			h5 {
+				font-family: Futura; 
+				color: black;
+				text-align: center;
+				font-size: 32px;
+				margin-top: 10px;
+			
+			}
+			h6 {
+				font-family: Futura; 
+				color: black;
+				text-align: center;
+				font-size: 24px;
+				margin-top: 10px;
+			}
+			
+			a {
+				font-weight: bold;
+				text-decoration: none;
+				border-bottom: 3px solid;
+				padding-bottom: 0px;
+				color: #0f0;
+				font-family: Futura; 
+				color: black;
+				text-align: center;
+				font-size: 36px;
+				margin-top: 10px;
+				margin-left: 50px;
+	
+			}
+			
+			a:link{
+
+			}
+
+			a:visited{
+				color:#050;
+			}
+
+			a:hover{
+				font-style: italic;
+				background: yellow;
+				border-bottom: none;
+
+			}
+
+			a:active{
+				color: red;
+
+			}
+			
+			
+			
+			
+			#title {
+				position: absolute;
+				top: 0px;
+				left: 50px;
+			}
+			#poster {
+				position: absolute;
+				top: 300px;
+				left: 600px;
+				z-index: 2;
+			}
+			#story {
+				display: none;
+				position: absolute;
+				top: 180px;
+				left: 50px;
+				width: 400px;
+				height: 400px;
+				padding: 10px;
+				font-size: 18px;
+				z-index: 5;
+			}
+			#rating {
+				display: none;
+				position: absolute;
+				top: 30px;
+				left: 760px;
+				width: 350px;
+				height: 80px;
+				padding: 10px;
+				font-size: 18px;
+				z-index: 5;
+			}
+			#cast {
+				display: none;
+				position: absolute;
+				top: 115px;
+				left: 1065px;
+				z-index: 5;
+			
+			}
+			#awards {
+				display: none;
+				position: absolute;
+				top: 900px;
+				left: 37px;
+				z-index: 5;
+			
+			}
+			#bo {
+				display: none;
+				position: absolute;
+				top: 650px;
+				left: 50px;
+				z-index: 5;
+			
+			}
+			#special {
+				display: none;
+				display: ;
+				position: absolute;
+				top: 900px;
+				left: 680px;
+				z-index: 5;
+				width: 710px;
+				padding: 10px;
+			}
+			#comments {
+				background: black;
+				position: absolute;
+				top: 140px;
+				left: 550px;
+				width: 640px;
+				height: 130px;
+				padding: 10px;
+				z-index:1;
+				display: none;
+				
+				
+			}
+				
+			
+		</style>
+	</head>
+	<body>
+		<div id="title">
+		<p><em1>Submission Complete</em1></p>
+		</div>
+		
+		
+		<div id="rating">
+			<p4>IMDb: <em5>7.9</em5>/10<br>Rotten Tomatoes: <em5>86%</em5><p4>
+		</div>
+		
+		
+		<div id="awards">
+			<img  src="md/awards.jpg" width="600" height="auto" alt="Mulholland Drive"/></br>	
+		</div>
+		
+		<div id="bo">
+			<p4><b>Domestic</b>: $7,220,243</br><b>Worldwide</b>: $20,117,339</br><b>Release Date</b>: October 8,2001</br><b>Opening</b>: $587,591<p4>
+		</div>
+		
+		
+		<div id="comments">
+			<p5><em>Creator: Alan Zhao</em> </br>E-mail: alanzhao96@gmail.com</p5>
+		</div>
+		
+		
+		
+
+		
+		
+		
+		
+
+		
+		<a href="http://bert.art.yale.edu/~designsummer2013/zhao/Project6/home.html">
+		
+		<div id=square9 class="fadesquare9"><p>Back</p></div></a>
+		
+	</body>
+</html>

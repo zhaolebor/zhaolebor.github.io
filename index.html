@@ -1,1 +1,97 @@
-Hello World
+<!-- Document type declaration -->
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Zhaolebor's Site</title>
+
+      <style>
+
+         body{
+              font-family: Gill sans, Heveltica, Arial, Verdana, sans-serif;
+         }
+
+         h1{
+             color: blue;
+             /*color: #ff00ff;*/
+             /*color:#f00;*/
+             /*color:rgb(255, 0, 0);*/
+         }
+
+         #box1 {
+                background: black;
+                width: 200px;
+                height: 200px;
+                position:absolute;
+                top: 400px;
+                left: 400px;
+                z-index:0;
+                transform: rotate(30deg);
+                -ms-transform: rotate(30deg);
+                -webkit-transform: rotate(30deg);
+                -o-transform: rotate(30deg);
+                -moz-transform: rotate(30deg);
+
+         }
+
+         #statement {
+               position:absolute;
+               top:200px;
+               left:150px;
+               background:silver;
+               width: 200px;
+               /*height: 100px;*/
+               padding: 50px;
+               border: 5px #000 solid;
+               margin: 20px;
+               z-index: 100;
+         }
+
+         .differentcolor {
+                color:red;
+
+         }
+
+         p {
+                 background: pink;
+                 font-weight: bold; /* regular, bold, light */
+                 text-indent: 25px;
+                 font-size: 20px;
+                 line-height: 24px;
+
+         }
+
+      </style>
+
+
+
+
+   </head>
+
+   <body>
+       <h1>Headline</h1>
+       <h2>Subhead</h2>
+
+       <div id="statement">
+          <p>Text goes here.Text goes here.<br  />
+          Text goes here.Text goes here.Text goes here.Text goes here.Text goes here.Text goes here.Text goes here.Text goes here.</p>
+       </div>
+
+       <div id=box1>
+
+       </div>
+
+       <ul>
+           <a href="http://zhaolebor.github.io/home.html">
+           <li class="differentcolor">First item</li>
+           <li>Second item</li>
+       </ul>
+
+       <ol>
+           <li>First item</li>
+           <li>second item</li>
+       </ol>
+
+   </body>
+
+
+</html>
