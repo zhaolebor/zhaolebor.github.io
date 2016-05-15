@@ -136,14 +136,11 @@ function run(){
     animate(myCircle1, myCircle2, myLine1, myLine2, mySpring, myWall, canvas, context);
   }, 10);
   
-  
   var Phi1=$('#Phi1').val()/180*(Math.PI);
   var Phi2=$('#Phi2').val()/180*(Math.PI);
   var gain1 = (k*r1_real*r1_real+m2*g*l1_real)/(m2*l1_real*l1_real)
   var gain2 = (k*(r1_real*r1_real))/(m2*(l1_real*l1_real))
   X=[Phi1, 0, Phi2, 0];
   sys.initial(X,true);
-  
-
 }
 
