@@ -5,36 +5,62 @@
 	<title>Coupled Pendulum</title>
 	<script type="text/javascript" src="raphael.js"></script>
 	<script type="text/javascript" src="linear.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js' type='text/javascript'></script>
+    <script src='../assets/javascripts/resize.js' type='text/javascript'></script>
 	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link href='double_pendulum.css' rel='stylesheet' type='text/css'>
+    <link href='base.css' rel='stylesheet' type='text/css'>
 </head>
-<body>
-	<h2> Hello </h2>
+<body style='margin: 0;max-width:100%;padding:0'>
+    <div class='sidebar'>
+      <form id='set_variables_form'>
+        <label for='mass1'>Mass (in kg):</label>
+        <input id='mass1' value='1.5'>
+        <label for='Phi1'>Phi1 (in deg, max=10, min=-10):</label>
+        <input id='Phi1' max='10' min='-10' type='range' value='5'>
+        <label for='Phi2'>Phi2 (in deg, max=10, min=-10):</label>
+        <input id='Phi2' max='10' min='-10' type='range' value='-5'>
+        <input id='button1' class='submit-btn' type='submit' value='Start Simulation'>
+      </form>
+      
+    </div>
+    <canvas class='phys-canvas' height='500' id='myCanvas' width='700'></canvas>
+	<script src='pendulum0.js' type='text/javascript'></script>
+
 <script>
-	var k = 39.4 // N/m
-	var l = 0.14 // m
-	var M = 1.550 // kg
-	var g = 9.81 // N/kg
-	var r = 0.59 // m
-	var gain1 = (k*l^2+M*g*r)/(M*r^2)
-	var gain2 = (k*l^2)/(M*r^2)
+	//var k = 39.4 // N/m
+	//var l = 0.14 // m
+	//var M = 1.550 // kg
+	//var g = 9.81 // N/kg
+	//var r = 0.59 // m
+	//var gain1 = (k*l*l+M*g*r)/(M*r*r)
+	//var gain2 = (k*(l*l))/(M*(r*r))
+	//var Phi1_init   = 0.0873;
+    //var Phi2_init   = 0.0873;
+
 	A=[[     0, 1,     0, 0],
    	   [-gain1, 0, gain2, 0],
-       [     0, 0,     0, 1], 
+       [     0, 0, 0, 1], 
        [ gain2, 0,-gain1, 0]];
-   
     B=[];
     C=[[1,0,0,0],
        [0,0,1,0]];
     D=[];
-    X=[0.0873,0,-0.0873,0];
+    X=[Phi1,0,Phi2,0];
     sys=system(A,B,C,D,X);
-    sys.h(0.005)
-    sys.tMax(20);
-    plt=plot([500,150],sys,[0,1],[20,-0.1,0.1],['theta1','theta2'],['green','red']);
+    sys.h(0.0001);
+    sys.spf(100);
+    sys.fps(100);
+    sys.tMax(30);
     
-    //dia=diagram([100,30]);
-	//dia.inductor([15,15],[85,15]);
-	//dia.terminal([15,15],[85,15]);
+    //diagram([200,100],sys)
+    //ax=dia.axis([0,100],0)
+    //dia.spring('K',ax,25,175,-20)
+
+    
+    
+    plt=plot([500,150],sys,[0,1],[30,-0.2,0.2],['theta1','theta2'],['green','red']);
+
 </script>
 
 </body>

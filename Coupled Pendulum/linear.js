@@ -165,7 +165,8 @@ Linear.System=function System(nA,nB,nC,nD,nXi){
 	
 	ssButton=document.createElement('input');	
 	ssButton.type='button';
-	container.appendChild(ssButton);
+	//ssButton.display=none;
+	//container.appendChild(ssButton);
 
 	//if parameters were provided
 	if(nA)
