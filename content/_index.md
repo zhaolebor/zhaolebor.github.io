@@ -76,7 +76,7 @@ sections:
           company_logo: fetch-logo
           location: California
           date_start: '2019-03-01'
-          date_end: '2021-06-31'
+          date_end: '2021-06-30'
           description: |2-
               *Lane congestion detection
               *Human detection
