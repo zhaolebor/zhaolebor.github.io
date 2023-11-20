@@ -69,8 +69,7 @@ sections:
           location: Philadelphia, Pennsylvania
           date_start: '2023-10'
           date_end: ''
-          description: |2-
-              Working on open source autonomous driving on the Eve Autonomy Yamaha platform
+          description: Working on open source autonomous driving on the Eve Autonomy Yamaha platform
         - title: Professor of Semiconductor Physics
           company: University X
           company_url: ''
