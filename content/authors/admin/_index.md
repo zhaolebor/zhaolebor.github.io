@@ -40,9 +40,11 @@ education:
     - course: M.S.E. in Robotics
       institution: University of Pennsylvania
       year: 2024 (Expected)
+      gpa: 3.9
     - course: B.A. in Computer Science / B.S. in Engineering
       institution: Swarthmore College
       year: 2018
+      gpa: 3.8
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -81,7 +83,7 @@ skills:
       - name: Piano
         description: ''
         percent: 70
-        icon: piano-keyboard
+        icon: music
         icon_pack: fas
       - name: Photography
         description: ''
