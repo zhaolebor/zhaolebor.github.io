@@ -70,14 +70,24 @@ sections:
           date_start: '2023-10-01'
           date_end: ''
           description: Working on open source autonomous driving on the Eve Autonomy Yamaha platform
+        - title: Research Analyst
+          company: Beijing Science & Technology Innovation Fund
+          company_url: https://www.bjstif.cn/
+          company_logo: bjstif-logo
+          location: Beijing, China
+          date_start: '2021-08-30'
+          date_end: '2022-06-30'
+          description: Robotics and AI Industry Research
         - title: Robotics Software Engineer
           company: Fetch Robotics Inc. (Acquired by Zebra Technologies)
           company_url: https://fetchrobotics.com/
           company_logo: fetch-logo
-          location: California
+          location: San Jose, California
           date_start: '2019-03-01'
           date_end: '2021-06-30'
           description: |2-
+              I worked on:
+
               *Lane congestion detection
               *Human detection
               *Social navigation 
