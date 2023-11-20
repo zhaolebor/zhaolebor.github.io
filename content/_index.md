@@ -39,7 +39,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Hi, I'm Alan
+      title: Hi, I'm Alan!
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   - block: skills
@@ -62,19 +62,15 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
+        - title: Robotics Software Engineer
+          company: Autoware Foundation
+          company_url: https://autoware.org/
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: Philadelphia, Pennsylvania
+          date_start: '2023-10'
           date_end: ''
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
+              Working on open source autonomous driving on the Eve Autonomy Yamaha platform
         - title: Professor of Semiconductor Physics
           company: University X
           company_url: ''

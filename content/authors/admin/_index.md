@@ -40,11 +40,9 @@ education:
     - course: M.S.E. in Robotics
       institution: University of Pennsylvania
       year: 2024 (Expected)
-      gpa: 3.9
     - course: B.A. in Computer Science / B.S. in Engineering
       institution: Swarthmore College
       year: 2018
-      gpa: 3.8
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -53,12 +51,12 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 90
+        percent: 95
         icon: python
         icon_pack: fab
       - name: C++
         description: ''
-        percent: 80
+        percent: 90
         icon: code
         icon_pack: fas
       - name: ROS
@@ -68,7 +66,7 @@ skills:
         icon_pack: fas
       - name: PyTorch
         description: ''
-        percent: 80
+        percent: 90
         icon: chart-line
         icon_pack: fas
   - name: Hobbies
@@ -77,18 +75,23 @@ skills:
     items:
       - name: Basketball
         description: ''
-        percent: 80
+        percent: 85
         icon: basketball
         icon_pack: fas
       - name: Piano
         description: ''
-        percent: 70
+        percent: 80
         icon: music
         icon_pack: fas
       - name: Photography
         description: ''
-        percent: 80
+        percent: 85
         icon: camera-retro
+        icon_pack: fas
+      - name: Cooking
+        description: ''
+        percent: 95
+        icon: kitchen-set
         icon_pack: fas
 
 # Social/Academic Networking
@@ -125,5 +128,7 @@ social:
 highlight_name: true
 ---
 
-Building robots for the next generations.
+I'm an aspiring engineer and entrepreneur helping building robots for the next generations. I believe robots, alongside humans, can make the world a better place. 
+I am currently working on robot learning from human research and open source autonomous driving. Previously, I have worked in the AI, robotics, and venture capital industries.
+
 {style="text-align: justify;"}
