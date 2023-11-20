@@ -65,19 +65,22 @@ sections:
         - title: Robotics Software Engineer
           company: Autoware Foundation
           company_url: https://autoware.org/
-          company_logo: org-gc
+          company_logo: autoware-logo
           location: Philadelphia, Pennsylvania
-          date_start: '2023-10'
+          date_start: '2023-10-01'
           date_end: ''
           description: Working on open source autonomous driving on the Eve Autonomy Yamaha platform
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
+        - title: Robotics Software Engineer
+          company: Fetch Robotics Inc. (Acquired by Zebra Technologies)
+          company_url: https://fetchrobotics.com/
+          company_logo: fetch-logo
           location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          date_start: '2019-03-01'
+          date_end: '2021-06-31'
+          description: |2-
+              *Lane congestion detection
+              *Human detection
+              *Social navigation 
     design:
       columns: '2'
   - block: accomplishments
