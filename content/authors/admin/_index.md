@@ -37,10 +37,10 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: MSE in Robotics
+    - course: M.S.E. in Robotics
       institution: University of Pennsylvania
       year: 2024 (Expected)
-    - course: BA in Computer Science / BS in Engineering
+    - course: B.A. in Computer Science / B.S. in Engineering
       institution: Swarthmore College
       year: 2018
 
@@ -51,32 +51,37 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 90
         icon: python
         icon_pack: fab
-      - name: Data Science
+      - name: C++
+        description: ''
+        percent: 80
+        icon: code
+        icon_pack: fas
+      - name: ROS
         description: ''
         percent: 100
-        icon: chart-line
+        icon: robot
         icon_pack: fas
-      - name: SQL
+      - name: PyTorch
         description: ''
-        percent: 40
-        icon: database
+        percent: 80
+        icon: chart-line
         icon_pack: fas
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Basketball
         description: ''
-        percent: 60
-        icon: person-hiking
+        percent: 80
+        icon: basketball
         icon_pack: fas
-      - name: Cats
+      - name: Piano
         description: ''
-        percent: 100
-        icon: cat
+        percent: 70
+        icon: piano-keyboard
         icon_pack: fas
       - name: Photography
         description: ''
@@ -92,15 +97,15 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/GeorgeCushen
+  #   label: Follow me on Twitter
+  #   display:
+  #     header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=b43yP_sAAAAJ
   - icon: github
     icon_pack: fab
     link: https://github.com/zhaolebor
@@ -110,9 +115,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
