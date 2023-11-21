@@ -16,7 +16,7 @@ publishDate: "2017-12-07T00:00:00Z"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: ICLR 2018 Reproducibility Challenge
 publication_short: ""
 
 abstract: Genetic algorithms have long been successfully applied to optimize the weights of neural networks. The genetic concept of crossover, recombining components to form a stronger component, applies well to Deep Neural Networks. This paper elaborates on the performances of two automated evolutionary methods for optimizing deep learning architectures on the relevant and important tasks of image classification and language modeling. The first of these methods is based on evolving populations of chromosomes and crossing over the strongest amongst them, and the second is based on a hierarchical genetic representation scheme. Both of the algorithms required a substantial amount of computational power in the original literatures. Given the limited resources available, presented are the implementations of these algorithms at a relatively small scale for both tasks as well as results on the CIFAR-10 dataset, demonstrating classification quality comparable to that of literature and setting the stage for the future work of merging these methodologies.

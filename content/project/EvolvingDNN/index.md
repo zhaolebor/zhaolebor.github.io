@@ -1,6 +1,6 @@
 ---
 title: Comparing Evolutionary Algorithms for Deep Neural Networks
-summary: Using multi-layered coevolutionary approaches / hierarchical approaches to evolve deep neural network architecture
+summary: Using multi-layered coevolutionary approaches / hierarchical approaches to evolve deep neural network architecture. ICLR 2018 Reproducibility Challenge
 tags:
   - Machine Learning
   - Computer Vision
@@ -24,6 +24,8 @@ image:
 links:
 - name: Paper
   url: https://www.cs.swarthmore.edu/~meeden/cs81/f17/projects/AlanGabeHarsha.pdf
+- name: Openreview Post
+  url: https://openreview.net/forum?id=BJQRKzbA-&noteId=H1yO14fzz
 url_code: 'https://github.com/zhaolebor/evolving-deep-neural-networks/tree/master'
 url_pdf: ''
 url_slides: 'https://drive.google.com/file/d/1dRCuhLWxomSDF39k3anQXdSSJIPQc-jF/view?usp=sharing'
@@ -57,3 +59,5 @@ at 0.963 test accuracy). However, from implementing and experimenting with the a
 hierarchical search was effective at both encoding and simplifying complex architectures. As more computational
 resources and time become more available to us, we expect to evolve novel network architectures while still achieving,
 at the very least, the benchmark scores on the PTB and CIFAR-10 datasets.
+
+Participated in the [ICLR 2018 Reproducibility Challenge](https://www.cs.mcgill.ca/~jpineau/ICLR2018-ReproducibilityChallenge.html).
