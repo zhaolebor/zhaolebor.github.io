@@ -88,9 +88,9 @@ sections:
           description: |2-
               I worked on:
 
-              *Lane congestion detection
-              *Human detection
-              *Social navigation 
+              * Lane congestion detection
+              * Human detection
+              * Social navigation 
     design:
       columns: '2'
   # - block: accomplishments
@@ -179,8 +179,14 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: Robotics
+          tag: Robotics
+        - name: Machine Learning
+          tag: Machine Learning
+        - name: Computer Vision
+          tag: Computer Vision
+        - name: Software Engineering
+          tag: Software Engineering
         - name: Other
           tag: Demo
     design:
@@ -222,16 +228,16 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     columns: '2'
+  #     view: compact
   - block: tag_cloud
     content:
       title: Popular Topics
@@ -245,37 +251,41 @@ sections:
       text: |-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: alanzhao96@gmail.com
+      phone: (+1)732-331-5913
+      GRASP Laboratory
+Levine Hall 4th Floor
+University of Pennsylvania
+3330 Walnut Street
+Philadelphia, PA 19104-6228
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
+        street: 3330 Walnut Street
+        city: Philadelphia
+        region: PA
+        postcode: '19104'
         country: United States
         country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      directions: GRASP Laboratory (Levine Hall 4th Floor)
+      # office_hours:
+      #   - 'Monday 10:00 to 13:00'
+      #   - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+        latitude: '39.952523'
+        longitude: '-75.190961'  
+      # contact_links:
+      #   - icon: twitter
+      #     icon_pack: fab
+      #     name: DM Me
+      #     link: 'https://twitter.com/Twitter'
+      #   - icon: skype
+      #     icon_pack: fab
+      #     name: Skype Me
+      #     link: 'skype:echo123?call'
+      #   - icon: video
+      #     icon_pack: fas
+      #     name: Zoom Me
+      #     link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider

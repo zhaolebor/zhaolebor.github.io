@@ -1,25 +1,26 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: Comparing Evolutionary Algorithms for Deep Neural Networks
+summary: Using multi-layered coevolutionary approaches / hierarchical approaches to evolve deep neural network architecture
 tags:
-  - Deep Learning
-date: '2016-04-27T00:00:00Z'
+  - Machine Learning
+  - Computer Vision
+date: '2017-05-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
-  focal_point: Smart
+  # caption: Photo by rawpixel on Unsplash
+  # focal_point: Smart
 
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
-url_code: ''
-url_pdf: ''
-url_slides: ''
+# links:
+#   - icon: twitter
+#     icon_pack: fab
+#     name: Follow
+#     url: https://twitter.com/georgecushen
+url_code: 'https://github.com/zhaolebor/evolving-deep-neural-networks/tree/master'
+url_pdf: 'https://www.cs.swarthmore.edu/~meeden/cs81/f17/projects/AlanGabeHarsha.pdf'
+url_slides: 'https://drive.google.com/file/d/1dRCuhLWxomSDF39k3anQXdSSJIPQc-jF/view?usp=sharing'
 url_video: ''
 
 # Slides (optional).
@@ -27,15 +28,26 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: ''
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+Genetic algorithms have long been successfully applied to optimize the weights of neural networks. The genetic 
+concept of crossover, recombining components to form a stronger component, applies well to Deep Neural
+Networks. This paper elaborates on the performances of two automated evolutionary methods for optimizing deep
+learning architectures on the relevant and important tasks of image classification and language modeling. The first of
+these methods is based on evolving populations of chromosomes and crossing over the strongest amongst them, and
+the second is based on a hierarchical genetic representation scheme. Both of the algorithms required a substantial
+amount of computational power in the original literatures. Given the limited resources available, presented are the
+implementations of these algorithms at a relatively small scale for both tasks as well as results on the CIFAR-10
+dataset, demonstrating classification quality comparable to that of literature and setting the stage for the future work
+of merging these methodologies.
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
-
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
-
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
-
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+The results of this paper show that both multi-layered coevolutionary approaches and hierarchical approaches to optimizing DNNs are feasible and can develop DNNs comparable to those with hand-designed architectures. We demonstrate results comparable to benchmark models on the CIFAR-10 image classification dataset and present a ready-to-go
+platform for evolving LSTMs to tackle language modeling. The latter in particular, was not achieved by either of the
+original literatures. The potential of our work is still largely untapped due to the enormous computational power necessary to train the necessary number of networks for obtaining the best network architectures through evolution. It is worth noting that solving the problem of meta-learning still benefits significantly from having more computational
+resources because of parallelism, and replicating the same level of results at a small scale is still nearly impossible,
+as our results did not reach the same level as the original literatures (CoDeepNEAT at 0.927 and hierarchical Search
+at 0.963 test accuracy). However, from implementing and experimenting with the algorithms, we found that CoDeepNEAT was effective at both speciation and evolving a population of good-performing architectures with variations;
+hierarchical search was effective at both encoding and simplifying complex architectures. As more computational
+resources and time become more available to us, we expect to evolve novel network architectures while still achieving,
+at the very least, the benchmark scores on the PTB and CIFAR-10 datasets.
