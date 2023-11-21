@@ -73,7 +73,7 @@ sections:
         - title: Research Analyst
           company: Beijing Science & Technology Innovation Fund
           company_url: https://www.bjstif.cn/
-          company_logo: ''
+          company_logo: bjstif-logo
           location: Beijing, China
           date_start: '2021-08-30'
           date_end: '2022-06-30'

@@ -4,7 +4,7 @@ summary: Can a Gaussian-activated MLP replace the SIREN in pi-GAN?
 tags:
   - Machine Learning
   - Computer Vision
-date: '2017-12-07T00:00:00Z'
+date: '2022-12-31T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
