@@ -90,7 +90,8 @@ sections:
 
               * Lane congestion detection
               * Human detection
-              * Social navigation 
+              * Social navigation
+          url: https://fetchrobotics.com/fetch-robotics-blog/using-social-navigation-behaviors-to-optimize-amr-performance/
     design:
       columns: '2'
   # - block: accomplishments
