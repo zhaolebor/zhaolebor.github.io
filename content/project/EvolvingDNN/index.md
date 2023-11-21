@@ -4,6 +4,9 @@ summary: Using multi-layered coevolutionary approaches / hierarchical approaches
 tags:
   - Machine Learning
   - Computer Vision
+  - Python
+  - Keras
+  - Tensorflow
 date: '2017-12-07T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
