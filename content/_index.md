@@ -253,11 +253,6 @@ sections:
       # Contact (add or remove contact options as necessary)
       email: alanzhao96@gmail.com
       phone: (+1)732-331-5913
-      GRASP Laboratory
-Levine Hall 4th Floor
-University of Pennsylvania
-3330 Walnut Street
-Philadelphia, PA 19104-6228
       address:
         street: 3330 Walnut Street
         city: Philadelphia
