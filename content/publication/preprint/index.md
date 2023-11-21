@@ -2,6 +2,8 @@
 title: "Comparing Evolutionary Algorithms for Deep Neural Networks"
 authors:
 - admin
+- Harsha Uppili
+- Gabriel Meyer-Lee
 date: "2017-12-07T00:00:00Z"
 doi: ""
 
