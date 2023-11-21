@@ -33,6 +33,7 @@ interests:
   - Robotics
   - Computer Vision
   - Machine Learning
+  - Entrepreneurship
 
 # Education to show in About widget
 education:
@@ -128,7 +129,8 @@ social:
 highlight_name: true
 ---
 
-I'm an aspiring engineer and entrepreneur helping building robots for the next generations. I believe robots, alongside humans, can make the world a better place. 
+I'm an aspiring engineer and entrepreneur helping building robots for the next generations. I believe robots, alongside humans, can make the world a better place.
+
 I am currently working on robot learning from human research and open source autonomous driving. Previously, I have worked in the AI, robotics, and venture capital industries.
 
 {style="text-align: justify;"}
