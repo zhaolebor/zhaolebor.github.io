@@ -19,7 +19,7 @@ image:
 #     name: Follow
 #     url: https://twitter.com/georgecushen
 url_code: 'https://github.com/zhaolebor/evolving-deep-neural-networks/tree/master'
-url_pdf: 'https://www.cs.swarthmore.edu/~meeden/cs81/f17/projects/AlanGabeHarsha.pdf'
+url_paper: 'https://www.cs.swarthmore.edu/~meeden/cs81/f17/projects/AlanGabeHarsha.pdf'
 url_slides: 'https://drive.google.com/file/d/1dRCuhLWxomSDF39k3anQXdSSJIPQc-jF/view?usp=sharing'
 url_video: ''
 
