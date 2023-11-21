@@ -91,9 +91,11 @@ sections:
               * Lane congestion detection
               * Human detection
               * Social navigation
-              * https://fetchrobotics.com/fetch-robotics-blog/using-social-navigation-behaviors-to-optimize-amr-performance/
+              
+              https://fetchrobotics.com/fetch-robotics-blog/using-social-navigation-behaviors-to-optimize-amr-performance/
     design:
       columns: '2'
+
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -136,6 +138,7 @@ sections:
   #         url: ''
   #   design:
   #     columns: '2'
+
   # - block: collection
   #   id: posts
   #   content:
@@ -163,6 +166,7 @@ sections:
   #     # Choose a layout view
   #     view: compact
   #     columns: '2'
+
   - block: portfolio
     id: projects
     content:
@@ -204,6 +208,7 @@ sections:
         {{< gallery album="photos" >}}
     design:
       columns: '1'
+
   - block: collection
     id: featured
     content:
@@ -215,20 +220,22 @@ sections:
     design:
       columns: '2'
       view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
+
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       Quickly discover relevant content by [filtering publications](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
+
   # - block: collection
   #   id: talks
   #   content:
@@ -239,11 +246,13 @@ sections:
   #   design:
   #     columns: '2'
   #     view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+
+  # - block: tag_cloud
+  #   content:
+  #     title: Popular Topics
+  #   design:
+  #     columns: '2'
+
   - block: contact
     id: contact
     content:
