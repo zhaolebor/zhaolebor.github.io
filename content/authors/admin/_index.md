@@ -1,12 +1,12 @@
 ---
 # Display name
-title: 赵卓伦
+title: Zhuolun (Alan) Zhao
 
 # Name pronunciation (optional)
-name_pronunciation: Zhuolun Zhao
+name_pronunciation: 赵卓伦
 
 # Full name (for SEO)
-first_name: Zhuolun "Alan"
+first_name: Zhuolun
 last_name: Zhao
 
 # Status emoji
