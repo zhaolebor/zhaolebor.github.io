@@ -1,6 +1,6 @@
 ---
 title: Comparing Evolutionary Algorithms for Deep Neural Networks
-summary: Using multi-layered coevolutionary approaches / hierarchical approaches to evolve deep neural network architecture. ICLR 2018 Reproducibility Challenge
+summary: Using multi-layered coevolutionary approaches / hierarchical approaches to evolve deep neural network architecture (ICLR 2018 Reproducibility Challenge)
 tags:
   - Machine Learning
   - Computer Vision
