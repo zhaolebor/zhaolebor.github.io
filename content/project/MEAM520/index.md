@@ -1,11 +1,11 @@
 ---
-title: Modeling Multimodal Distribution with Improved BicycleGAN
-summary: Improve BicycleGAN’s performance through architectures and loss function modifications
+title: Autonomous Block Stacking with Franka Emika Panda Arm Robot
+summary: Within a time limit, stack as many static and dynamic blocks as possible.
 tags:
   - Computer Vision
-  - Machine Learning
+  - Robotics
+  - ROS
   - Python
-  - PyTorch
 date: '2022-12-31T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
@@ -22,11 +22,11 @@ image:
 #     url: https://twitter.com/georgecushen
 links:
 - name: Report
-  url: https://drive.google.com/file/d/1Zr4OppEE5S0xd1-fcAvoVkKuQkpaOkGl/view?usp=sharing
-url_code: 'https://github.com/zhaolebor/CIS6800-Final-Project'
+  url: https://drive.google.com/file/d/1tlF9Ahe7-NA2xrA2SijolBFx86cCoJTy/view?usp=sharing
+url_code: 'https://github.com/zhaolebor/MEAM5200-final-project'
 url_pdf: ''
-url_slides: 'https://docs.google.com/presentation/d/1qYsPmY65_fXbzG4twYygCKpeep3X-nLHV3TidEhW5EA/edit?usp=sharing'
-url_video: 'https://youtu.be/vjcgo-7UME4'
+url_slides: 'https://docs.google.com/presentation/d/1fPJWhFwsAl-aTx7Db-deHP18ploWAS1nkb_QIq3bPYI/edit?usp=sharing'
+url_video: 'https://www.youtube.com/watch?v=9rdkcOWgo7c'
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -36,6 +36,8 @@ url_video: 'https://youtu.be/vjcgo-7UME4'
 slides: ''
 ---
 
-Image-to-image translation aims to transform images from one domain to have the characteristics of another domain while preserving the content representations. Generative adversarial networks (GAN) have made tremendous progress in recent years to enable photo-realistic image-to-image translation, which has applications in synthesis, restoration, and style transfer. In this project, we want to explore multimodal conditional synthesis based on BicycleGAN. While most GAN-based approaches suffer from mode collapse in conditional synthesis, BicycleGAN proposes a hybrid model that encourages invertible mapping between the output and the latent code, which should improve generation diversity while maintaining realism. We aim to further improve BicycleGAN’s performance through architectures and loss function modifications.
+The objective is to use a Franka Emika Panda Arm to pick up static and dynamic blocks (on a spinning turntable), and stack them in a given goal area. For static blocks, we defined waypoints for the end effector and used IK (inverse kinematics) to generate the motion plan. For dynamic blocks, we predict the trajectory of the block and calculate a "pick point" where the end effector should pick up the block.
 
-We find that by combining multiple objectives for encouraging a bijective mapping between the latent and output spaces, we obtain results that are more realistic and diverse. We observe a trade-off to some extent between realism and diversity with increased generator and discriminator complexity. However, due to the unstable nature of GAN training, it is relatively hard to achieve consistency.
+The detection was implemented by the teaching team using OpenCV and AprilTags. The algorithms were implemented in ROS and Python. Simulations were done in the Gazebo environment.
+
+We won 3rd place in the MEAM 5200 Fall Pick and Place Challenge. [Full Competition](https://www.youtube.com/watch?v=oD3afyBBPv8)
