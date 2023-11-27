@@ -1,8 +1,9 @@
 ---
-title: F1 Tenth Autonomous Racing
-summary: Develop perception, machine learning, planning, and control algorithm on a 1/10 self-driving car platform.
+title: F1TENTH Autonomous Racing
+summary: Develop perception, machine learning, planning, control, mapping, and racing algorithm on a 1/10 autonomous driving platform.
 tags:
   - Computer Vision
+  - Machine Learning
   - Robotics
   - ROS
   - Python
@@ -23,6 +24,9 @@ image:
 #     url: https://twitter.com/georgecushen
 links:
 - name: Report
+  url: https://drive.google.com/file/d/1tlF9Ahe7-NA2xrA2SijolBFx86cCoJTy/view?usp=sharing
+links:
+- name: F1TENTH
   url: https://drive.google.com/file/d/1tlF9Ahe7-NA2xrA2SijolBFx86cCoJTy/view?usp=sharing
 url_code: 'https://github.com/zhaolebor/MEAM5200-final-project'
 url_pdf: ''
