@@ -39,10 +39,10 @@ interests:
 education:
   courses:
     - course: M.S.E. in Robotics
-      institution: University of Pennsylvania
+      institution: University of Pennsylvania, Philadelphia, PA
       year: 2024 (Expected)
     - course: B.A. in Computer Science / B.S. in Engineering
-      institution: Swarthmore College
+      institution: Swarthmore College, Swarthmore, PA
       year: 2018
 
 # Skills
@@ -129,8 +129,8 @@ social:
 highlight_name: true
 ---
 
-I'm an aspiring engineer and entrepreneur helping building robots for the next generations. I believe robots, alongside humans, can make the world a better place.
+I'm an aspiring engineer and entrepreneur building robots for the next generations. I believe robots, alongside humans, can make the world a better place.
 
-I am currently working on robot learning from human research and open source autonomous driving. Previously, I have worked in the AI, robotics, and venture capital industries.
+I am interested in vision-based data-driven robot learning in human-robot hybrid environments. Currently a Master of Science in Robotics student at University of Pennsylvania, I am primarily working on robot learning from human research and open-source autonomous driving. Previously, I obtained my BA/BS from Swarthmore College double majoring in Computer Science and Engineering. I have worked in the AI, robotics, and venture capital industries.
 
 {style="text-align: justify;"}
