@@ -18,15 +18,15 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    description: 'Zhuolun (Alan) Zhao'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
   verification:
-    google: ''
+    google: 'google-site-verification=BGZ-Zvu6r0LNOU4KXv5pdq6cV2CfX_y4XuzAwWE4iDY'
     baidu: ''
 
 # Site header

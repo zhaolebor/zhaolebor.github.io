@@ -40,4 +40,4 @@ The objective is to use a Franka Emika Panda Arm to pick up static and dynamic b
 
 The detection was implemented by the teaching team using OpenCV and AprilTags. The algorithms were implemented in ROS and Python. Simulations were done in the Gazebo environment.
 
-We won 3rd place in the MEAM 5200 Fall Pick and Place Challenge. [Full Competition](https://www.youtube.com/watch?v=oD3afyBBPv8)
+We won 3rd place in the MEAM 5200 Fall Pick and Place Challenge. [Full Competition Video](https://www.youtube.com/watch?v=oD3afyBBPv8)
