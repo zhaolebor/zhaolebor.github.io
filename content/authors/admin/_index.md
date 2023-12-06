@@ -44,8 +44,7 @@ education:
     - course: B.A. in Computer Science / B.S. in Engineering
       institution: Swarthmore College, Swarthmore, PA, USA
       year: 2018
-    - course:
-      institution: The High School Affiliated to Renmin University of China, Beijing, China
+    - institution: The High School Affiliated to Renmin University of China, Beijing, China
       year: 2014
 
 # Skills
