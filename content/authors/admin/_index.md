@@ -39,11 +39,14 @@ interests:
 education:
   courses:
     - course: M.S.E. in Robotics
-      institution: University of Pennsylvania, Philadelphia, PA
+      institution: University of Pennsylvania, Philadelphia, PA, USA
       year: 2024 (Expected)
     - course: B.A. in Computer Science / B.S. in Engineering
-      institution: Swarthmore College, Swarthmore, PA
+      institution: Swarthmore College, Swarthmore, PA, USA
       year: 2018
+    - course:
+      institution: The High School Affiliated to Renmin University of China, Beijing, China
+      year: 2014
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
