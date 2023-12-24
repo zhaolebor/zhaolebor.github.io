@@ -1,6 +1,8 @@
 ---
 title: Investigating Neural Field Models For 3D-Aware GANs
-summary: Can a Gaussian-activated MLP replace the SIREN in pi-GAN?
+summary: |2-
+  
+  Can a Gaussian-activated MLP replace the SIREN in pi-GAN?
 tags:
   - Machine Learning
   - Computer Vision
