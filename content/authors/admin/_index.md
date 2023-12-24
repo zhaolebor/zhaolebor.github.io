@@ -50,53 +50,53 @@ education:
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-# skills:
-#   - name: Technical
-#     items:
-#       - name: Python
-#         description: ''
-#         percent: 95
-#         icon: python
-#         icon_pack: fab
-#       - name: C++
-#         description: ''
-#         percent: 90
-#         icon: code
-#         icon_pack: fas
-#       - name: ROS
-#         description: ''
-#         percent: 100
-#         icon: robot
-#         icon_pack: fas
-#       - name: PyTorch
-#         description: ''
-#         percent: 90
-#         icon: chart-line
-#         icon_pack: fas
-#   - name: Hobbies
-#     color: '#eeac02'
-#     color_border: '#f0bf23'
-#     items:
-#       - name: Basketball
-#         description: ''
-#         percent: 85
-#         icon: basketball
-#         icon_pack: fas
-#       - name: Piano
-#         description: ''
-#         percent: 80
-#         icon: music
-#         icon_pack: fas
-#       - name: Photography
-#         description: ''
-#         percent: 85
-#         icon: camera-retro
-#         icon_pack: fas
-#       - name: Cooking
-#         description: ''
-#         percent: 95
-#         icon: kitchen-set
-#         icon_pack: fas
+skills:
+  - name: Technical
+    items:
+      - name: Python
+        description: ''
+        percent: 95
+        icon: python
+        icon_pack: fab
+      - name: C++
+        description: ''
+        percent: 90
+        icon: code
+        icon_pack: fas
+      - name: ROS
+        description: ''
+        percent: 100
+        icon: robot
+        icon_pack: fas
+      - name: PyTorch
+        description: ''
+        percent: 90
+        icon: chart-line
+        icon_pack: fas
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Basketball
+        description: ''
+        percent: 85
+        icon: basketball
+        icon_pack: fas
+      - name: Piano
+        description: ''
+        percent: 80
+        icon: music
+        icon_pack: fas
+      - name: Photography
+        description: ''
+        percent: 85
+        icon: camera-retro
+        icon_pack: fas
+      - name: Cooking
+        description: ''
+        percent: 95
+        icon: kitchen-set
+        icon_pack: fas
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

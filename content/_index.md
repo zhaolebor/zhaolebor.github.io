@@ -42,14 +42,7 @@ sections:
       title: Hi, I'm Alan!
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
-    content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '1'
+
   - block: experience
     content:
       title: Experience
@@ -200,14 +193,6 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Photography
-      subtitle: ''
-      text: |-
-        {{< gallery album="photos" >}}
-    design:
-      columns: '1'
 
   - block: collection
     id: featured
@@ -220,6 +205,26 @@ sections:
     design:
       columns: '2'
       view: card
+  
+  - block: skills
+    content:
+      title: Skills
+      text: ''
+      # Choose a user to display skills from (a folder name within `content/authors/`)
+      username: admin
+    design:
+      columns: '1'
+
+  - block: markdown
+    content:
+      title: Photography
+      subtitle: ''
+      text: |-
+        {{< gallery album="photos" >}}
+    design:
+      columns: '1'
+
+
 
   # - block: collection
   #   content:
