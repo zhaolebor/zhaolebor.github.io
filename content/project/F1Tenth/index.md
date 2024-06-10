@@ -24,13 +24,13 @@ image:
 #     url: https://twitter.com/georgecushen
 links:
 - name: Report
-  url: https://drive.google.com/file/d/1tlF9Ahe7-NA2xrA2SijolBFx86cCoJTy/view?usp=sharing
+  url: https://drive.google.com/file/d/1J5S4RaIa_Ca9otJwTUSXsygcOcjgxU-f/view?usp=sharing
 links:
 - name: F1TENTH
-  url: https://drive.google.com/file/d/1tlF9Ahe7-NA2xrA2SijolBFx86cCoJTy/view?usp=sharing
-url_code: 'https://github.com/zhaolebor/MEAM5200-final-project'
+  url: https://f1tenth.org/
+url_code: 'https://github.com/jasonf27/f1tenth_autonomous_anonymous/tree/main'
 url_pdf: ''
-url_slides: 'https://docs.google.com/presentation/d/1fPJWhFwsAl-aTx7Db-deHP18ploWAS1nkb_QIq3bPYI/edit?usp=sharing'
+url_slides: 'https://drive.google.com/file/d/1YIbudQNYXHK4oqTOPFQXLTNr-7-X14IX/view?usp=sharing'
 url_video: 'https://www.youtube.com/watch?v=9rdkcOWgo7c'
 
 # Slides (optional).
@@ -41,4 +41,4 @@ url_video: 'https://www.youtube.com/watch?v=9rdkcOWgo7c'
 slides: ''
 ---
 
-VSLAM
+In Spring 2023, Together with my teammates Jason Friedman, Irene Grace Karot Polson, and Yu-chia Shen, we developed numerous perception, machine learning, planning, control, mapping, and racing algorithm on a 1/10 autonomous driving platform developed by F1Tenth organization.
