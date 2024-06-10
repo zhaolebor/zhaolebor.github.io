@@ -62,7 +62,9 @@ sections:
           location: Philadelphia, Pennsylvania
           date_start: '2023-10-01'
           date_end: ''
-          description: Working on open source autonomous driving on the Eve Autonomy Yamaha platform
+          description: |2-
+              * Building an autonomous gokart and deploy open-source autonomous algorithms
+              * Won 1st Place at Autonomous Karting Series 2024
         - title: Research Analyst
           company: Beijing Science & Technology Innovation Fund
           company_url: https://www.bjstif.cn/
