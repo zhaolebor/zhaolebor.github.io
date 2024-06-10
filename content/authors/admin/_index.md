@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Robotics Master Student @ Penn | Robotics Software Engineer
+role: Robotics Master Student @ Penn | Robotics & AI Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -40,7 +40,7 @@ education:
   courses:
     - course: M.S.E. in Robotics
       institution: University of Pennsylvania, Philadelphia, PA, USA
-      year: 2024 (Expected)
+      year: 2024
     - course: B.A. in Computer Science / B.S. in Engineering
       institution: Swarthmore College, Swarthmore, PA, USA
       year: 2018
