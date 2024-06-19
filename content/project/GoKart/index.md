@@ -37,4 +37,4 @@ We raced in two challenges, including: (1) the Open Challenge where we fused vis
 A central engineering priority throughout this project has been reproducibility. As such, we’ve made sure to document everything in GitHub, from successes to failures, from CAD files to PCB designs, from lower-level embedded to higher-level planning controls code, from one iteration to the next, from engineering decisions to empirical evidence. We build this GoKart not just to play around with, but to provide a research platform for various academic and corporate organizations with software that requires testing. Whereas small handheld (~1/10 scale) toy cars are cheap and affordable, and full-sized cars are ultimately most practical, our GoKart achieves the best of both worlds.
 
 
-![screen reader text](alan.JPG "caption")
+![screen reader text](alan.JPG "Me and the GoKart")
