@@ -20,7 +20,7 @@ image:
 url_code: ''
 url_pdf: ''
 url_slides: 'https://drive.google.com/file/d/1_QmJVRsDnwvsuiGMHe_19lRYnpn6zsNZ/view?usp=sharing'
-url_video: 'https://www.youtube.com/watch?v=9rdkcOWgo7c'
+url_video: ''
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
