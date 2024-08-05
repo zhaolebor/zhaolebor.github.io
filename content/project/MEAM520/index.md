@@ -1,6 +1,6 @@
 ---
 title: Autonomous Block Stacking with Franka Emika Panda Arm Robot
-summary: Within a time limit, stack as many static and dynamic blocks as possible.
+summary: Using computer vision and motion planning, grasp static and dynamic blocks and stack them on top with precision.
 tags:
   - Computer Vision
   - Robotics
