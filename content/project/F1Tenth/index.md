@@ -31,7 +31,7 @@ links:
 url_code: 'https://github.com/jasonf27/f1tenth_autonomous_anonymous/tree/main'
 url_pdf: ''
 url_slides: 'https://drive.google.com/file/d/1YIbudQNYXHK4oqTOPFQXLTNr-7-X14IX/view?usp=sharing'
-url_video: 'video.mp4'
+url_video: ''
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -43,5 +43,4 @@ slides: ''
 
 In Spring 2023, Together with my teammates Jason Friedman, Irene Grace Karot Polson, and Yu-chia Shen, we developed numerous perception, machine learning, planning, control, mapping, and racing algorithm on a 1/10 autonomous driving platform developed by F1Tenth organization.
 
-![screen reader text](video.mp4 "Our car overtaking an opponent")
-
+{{< video src="video.mp4" controls="yes" >}}
