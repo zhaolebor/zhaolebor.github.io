@@ -60,7 +60,7 @@ sections:
           company_url: https://autoware.org/
           company_logo: autoware-logo
           location: Philadelphia, Pennsylvania
-          date_start: ''
+          date_start: '2023-10-01'
           date_end: ''
           description: |2-
               * Building an autonomous gokart and deploy open-source autonomous algorithms
@@ -70,16 +70,16 @@ sections:
           company_url: https://www.bjstif.cn/
           company_logo: bjstif-logo
           location: Beijing, China
-          date_start: ''
-          date_end: ''
+          date_start: '2021-08-30'
+          date_end: '2022-06-30'
           description: Robotics and AI Industry Research
         - title: Robotics Software Engineer
           company: Fetch Robotics Inc. (Acquired by Zebra Technologies)
           company_url: https://fetchrobotics.com/
           company_logo: fetch-logo
           location: San Jose, California
-          date_start: ''
-          date_end: ''
+          date_start: '2019-03-01'
+          date_end: '2021-06-30'
           description: |2-
               I worked on:
 
