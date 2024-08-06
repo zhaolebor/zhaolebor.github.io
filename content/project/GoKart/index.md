@@ -18,7 +18,9 @@ image:
 links:
 - name: Gokart Website
   url: https://go-kart-upenn.readthedocs.io/en/latest/tutorial.html
-url_code: 'https://github.com/mlab-upenn/gokart-autoware.universe'
+- name: Penn Today
+  url: https://penntoday.upenn.edu/news/penn-engineering-racing-cars-f1tenth
+url_code: 'https://github.com/mlab-upenn/gokart-autoware.universe/tree/main/gokart'
 url_pdf: ''
 url_slides: ''
 url_video: 'https://drive.google.com/file/d/1dpN6ens8C1v3MIAGRtYlPcxoIUccVQs8/view?usp=sharing'
