@@ -55,13 +55,17 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Member of Technical Staff
+          company: Skild AI
+          company_url: https://skild.ai/
+          company_logo: skild-logo
+          location: Pittsburgh, Pennsylvania
+          description: Making robots do useful things with AI
         - title: Robotics Software Engineer
           company: Autoware Foundation
           company_url: https://autoware.org/
           company_logo: autoware-logo
           location: Philadelphia, Pennsylvania
-          date_start: '2023-10-01'
-          date_end: ''
           description: |2-
               * Building an autonomous gokart and deploy open-source autonomous algorithms
               * Won 1st Place at Autonomous Karting Series 2024
@@ -70,16 +74,12 @@ sections:
           company_url: https://www.bjstif.cn/
           company_logo: bjstif-logo
           location: Beijing, China
-          date_start: '2021-08-30'
-          date_end: '2022-06-30'
           description: Robotics and AI Industry Research
         - title: Robotics Software Engineer
           company: Fetch Robotics Inc. (Acquired by Zebra Technologies)
           company_url: https://fetchrobotics.com/
           company_logo: fetch-logo
           location: San Jose, California
-          date_start: '2019-03-01'
-          date_end: '2021-06-30'
           description: |2-
               I worked on:
 
